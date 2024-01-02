@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagementSystem", "OrderManagementSystem\OrderManagementSystem.csproj", "{66C85BD4-4BC4-4EB6-B270-6EFEF46C3318}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SystemDB", "SystemDB\SystemDB.sqlproj", "{2FA185DB-6324-4EFB-831F-BF2226198AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemUI", "SystemUI\SystemUI.csproj", "{7B96DFD0-F807-4845-BE42-7F5C54459433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{66C85BD4-4BC4-4EB6-B270-6EFEF46C3318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66C85BD4-4BC4-4EB6-B270-6EFEF46C3318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C85BD4-4BC4-4EB6-B270-6EFEF46C3318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA185DB-6324-4EFB-831F-BF2226198AE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7B96DFD0-F807-4845-BE42-7F5C54459433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B96DFD0-F807-4845-BE42-7F5C54459433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B96DFD0-F807-4845-BE42-7F5C54459433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B96DFD0-F807-4845-BE42-7F5C54459433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
