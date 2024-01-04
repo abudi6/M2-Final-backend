@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Items]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(150) NOT NULL, 
+    [Code] NVARCHAR(50) NOT NULL, 
+    [Brand] NVARCHAR(150) NOT NULL, 
+    [UnitPrice] DECIMAL(18, 2) NOT NULL, 
+    [DateAdded] DATETIME2 NOT NULL 
+)
