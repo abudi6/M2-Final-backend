@@ -7,7 +7,16 @@ namespace SystemUI
     {
         static void Main(string[] args)
         {
-            SqlData db = GetConnection();
+            try
+            {
+                SqlData db = GetConnection();
+                // Additional code or logic
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex}");
+                // Log the exception or take appropriate action
+            }
 
         }
         static SqlData GetConnection()
@@ -22,5 +31,17 @@ namespace SystemUI
 
             return db;
         }
+        public class SqlData
+        {
+            private readonly ISqlDataAccess _dbAccess;
+
+            public SqlData(ISqlDataAccess dbAccess)
+            {
+                _dbAccess = dbAccess ?? throw new ArgumentNullException(nameof(dbAccess));
+            }
+
+            // Other methods and properties...
+        }
+
     }
 }
