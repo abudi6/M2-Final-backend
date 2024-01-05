@@ -25,7 +25,7 @@ namespace SystemLibrary.Data
                 item.Code,
                 item.Brand,
                 item.UnitPrice,
-                item.DatePosted
+                item.DateAdded
             },
                 connectionStringName, true);
         }
@@ -40,12 +40,11 @@ namespace SystemLibrary.Data
 
         public void UpdateItem(ItemModel item)
         {
-            _db.UpdateData("spItems_Update", new
-            {
+            _db.UpdateData("spItems_Update",new{
                 item.Name,
                 item.Code,
                 item.Brand,
-                item.UnitPrice,
+                item.UnitPrice
             },
                 connectionStringName, true);
         }

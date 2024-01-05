@@ -39,7 +39,7 @@ namespace WebAPI.Controllers
             item.Code = GenerateRandomString(5);
             item.Brand = form.Brand;
             item.UnitPrice = form.UnitPrice;
-            item.DatePosted = DateTime.Now;
+            item.DateAdded = DateTime.Now;
             _db.AddItem(item);
 
             return Ok("Item Registered");

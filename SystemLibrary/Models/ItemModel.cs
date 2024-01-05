@@ -13,7 +13,7 @@ namespace SystemLibrary.Models
         public string Code { get; set; }
         public string Brand { get; set; }
         public decimal UnitPrice { get; set; }
-        public DateTime DatePosted { get; set; }
+        public DateTime? DateAdded { get; set; }
 
     }
 }
