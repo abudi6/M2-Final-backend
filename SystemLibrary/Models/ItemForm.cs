@@ -10,7 +10,7 @@ namespace SystemLibrary.Models
     {
         public string Name { get; set; }
         public string Brand { get; set; }
-        public string UnitPrice { get; set; }
+        public Decimal UnitPrice { get; set; }
     }
 }
 

@@ -12,7 +12,7 @@ namespace SystemLibrary.Models
         public string Name { get; set; }
         public string Code { get; set; }
         public string Brand { get; set; }
-        public string UnitPrice { get; set; }
+        public decimal UnitPrice { get; set; }
         public DateTime DatePosted { get; set; }
 
     }
